@@ -1,0 +1,43 @@
+/bin/ 
+/target/ 
+*.class 
+*.log 
+*.dat 
+*.csv 
+.idea/ 
+.vscode/ 
+*.iml 
+# OS files 
+Thumbs.db 
+.DS_Store 
+# --- cleanup: ignore build & runtime artifacts ---
+# Java build artifacts
+*.class
+/bin/
+/classes/
+/out/
+/target/
+
+# runtime DBs & logs
+*.db
+*.dat
+*.log
+javac_output.txt
+
+# miscellaneous
+repo_after_cleanup.txt
+reservations.csv
+*~ 
+.DS_Store
+classes/
+*.class
+reservations.txt
+reservations.json
+accounts.dat
+users.db
+leaderboard.db
+.idea/
+.vscode/
+*.log
+target/
+*.iml
